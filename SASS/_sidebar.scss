@@ -1,0 +1,17 @@
+.sidebar {
+    background-color: $color--dark;
+    height: 100vh;
+    overflow-y: auto;
+
+    .nav-item {
+        a {
+            color: $color--light-gray;
+        }
+
+        &:hover {
+            a {
+                color: $color--primary;
+            }
+        }
+    }
+}

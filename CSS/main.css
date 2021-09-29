@@ -1,0 +1,82 @@
+.content {
+  padding: 50px 75px;
+  background-color: #f4f4f4;
+  margin: 0 -12px;
+}
+
+.heading {
+  border-bottom: 2px solid #9ba3a7;
+}
+
+.tool-body {
+  width: 100%;
+  height: 500px;
+  background-color: white;
+  box-shadow: 0 0 20px #37474f;
+  margin: 50px 0;
+}
+
+.sidebar {
+  background-color: #37474f;
+  height: 100vh;
+  overflow-y: auto;
+}
+.sidebar .nav-item a {
+  color: #9ba3a7;
+}
+.sidebar .nav-item:hover a {
+  color: #df468e;
+}
+
+.top-bar {
+  margin: 0 -12px;
+  background-color: #e0e0e0;
+  width: calc(100% + 24px);
+}
+
+.search .input-group {
+  padding: 25px 35px;
+  color: #9ba3a7;
+}
+.search .form-control {
+  background-color: transparent;
+  border: none;
+}
+.search .form-control:focus {
+  box-shadow: none;
+}
+.search button {
+  border: none;
+}
+.search button:focus {
+  box-shadow: none;
+}
+
+.notify {
+  padding: 0 20px;
+}
+.notify button {
+  background-color: transparent;
+  border: none;
+  color: #9ba3a7;
+}
+.notify .badge {
+  background-color: #1e88e5;
+}
+
+.profile {
+  padding: 0 20px;
+}
+.profile .text-center {
+  max-width: 40px;
+}
+.profile .avatar-img {
+  border-radius: 50%;
+  width: 100%;
+}
+.profile .dropdown {
+  background-color: transparent;
+  border-left: 2px solid #9ba3a7;
+  color: #9ba3a7;
+  padding: 0 20px;
+}
